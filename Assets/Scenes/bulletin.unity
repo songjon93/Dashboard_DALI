@@ -1660,7 +1660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDownload: 0
   init: {fileID: 1414826922}
-  dataVisualizer: {fileID: 0}
 --- !u!64 &949432246
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1837,7 +1836,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDownload: 0
   init: {fileID: 1414826922}
-  dataVisualizer: {fileID: 0}
 --- !u!64 &1072903927
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2129,10 +2127,10 @@ RectTransform:
   m_Father: {fileID: 231976783}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 405, y: 700}
+  m_SizeDelta: {x: -60, y: -140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!132 &1213554632
 GUIText:
@@ -2179,15 +2177,15 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 95562128a0ac24d6c9c6dc8f5080aab4, type: 3}
     m_FontSize: 27
-    m_FontStyle: 1
-    m_BestFit: 0
+    m_FontStyle: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 116
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
 --- !u!222 &1213554634
@@ -2755,7 +2753,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDownload: 0
   init: {fileID: 1414826922}
-  dataVisualizer: {fileID: 0}
 --- !u!224 &1865679136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2828,7 +2825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDownload: 0
   init: {fileID: 1414826922}
-  dataVisualizer: {fileID: 0}
 --- !u!64 &1877084367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3089,7 +3085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDownload: 0
   init: {fileID: 1414826922}
-  dataVisualizer: {fileID: 0}
 --- !u!64 &2055030349
 MeshCollider:
   m_ObjectHideFlags: 0

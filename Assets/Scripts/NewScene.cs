@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class NewScene : MonoBehaviour {
     public bool startDownload = false;
     public Initiate init;
-    public DataVisualizer dataVisualizer;
     private readonly string pic_url = "http://mappy.dali.dartmouth.edu/";
     private MemberObject member;
     Renderer my_renderer;
