@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class StaticVar : MonoBehaviour {
     public static SeriesData data;
+    public static List<MemberObject> member_list;
     public static MemberObject selected_member;
 
     public void BuildSeriesData(List<MemberObject> member_infos)
     {
+        member_list = member_infos;
         data = new SeriesData();
         Debug.Log(data);
         data.Data = new float[member_infos.Count * 3];

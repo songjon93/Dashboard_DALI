@@ -102,6 +102,26 @@ public class Initiate : MonoBehaviour
     public MemberObject GetSelectedMember(){
         return selected_member;
     }
+
+    public void Sort(int type){
+        switch (type){
+            case 1:
+                member_infos.Sort((x, y) => string.Compare(x.name, y.name));
+                break;
+            case 2:
+                member_infos.Sort((x, y) => string.Compare(y.name, x.name));
+                break;
+            case 3:
+                member_infos.Sort((x, y) => y.project.Length.CompareTo(x.project.Length));
+                break;
+            case 4:
+                member_infos.Sort((x, y) => y.terms_on.Length.CompareTo(x.terms_on.Length));
+                break;
+        }
+        reload = true;
+        reload_num = 0;
+        jsonIndex = 0;
+    }
 }
 
 
