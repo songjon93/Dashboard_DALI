@@ -19,7 +19,7 @@ public class GlobeIntro : MonoBehaviour
         MemberObject selected = staticVar.GetSelected();
         if (selected != null)
         {
-            myText.text = "Turn the globe to find out where " + selected.name + " is!";
+            myText.text = "Spin the globe to find out where " + selected.name + " is from!";
         }
     }
 

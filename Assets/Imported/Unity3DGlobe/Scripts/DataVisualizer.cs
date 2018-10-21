@@ -21,7 +21,6 @@ public class DataVisualizer : MonoBehaviour {
         GameObject my_obj = Instantiate<GameObject>(PointPrefab);
         Vector3[] verts = p.GetComponent<MeshFilter>().mesh.vertices;
         int[] indices = p.GetComponent<MeshFilter>().mesh.triangles;
-        MemberObject selected_member = staticVar.GetSelected();
 
         List<Vector3> meshVertices = new List<Vector3>(65000);
         List<int> meshIndices = new List<int>(117000);
